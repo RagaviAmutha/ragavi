@@ -2,14 +2,18 @@
 
 int main(void) {
 	// your code goes here
-	int t,i;
-	int a[100],hash[10]={0};
+	int t,i,max=0;
+	int a[100],hash[10000]={0};
 	scanf("%d",&t);
 	for(i=0;i<t;i++)
+	{
 		scanf("%d",&a[i]);
-	for(i=0;i<t;i++)
+		if(max<a[i])
+			max=a[i];
+	}
+	for(i=0;i<=max;i++)
 		hash[a[i]]++;
-	for(i=0;i<t;i++)
+	for(i=0;i<=max;i++)
 	{
 			if(hash[i]==1)
 				printf("%d",i);
