@@ -3,7 +3,7 @@
 int main(void) {
 	// your code goes here
 	int t,i,max=0;
-	int a[100],hash[10]={0};
+	int a[100],hash[10000]={0};
 	scanf("%d",&t);
 	for(i=0;i<t;i++)
 	{
@@ -15,9 +15,9 @@ int main(void) {
 		hash[a[i]]++;
 	for(i=0;i<max;i++)
 	{
-			if(hash[i]!=2)
+			if(hash[i]==1)
 			{
-				printf("%d",i+1);
+				printf("%d",i);
 			break;
 			}
 	}
