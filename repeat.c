@@ -11,12 +11,12 @@ int main(void) {
 		if(max<a[i])
 			max=a[i];
 	}
-	for(i=0;i<max;i++)
+	for(i=0;i<=max;i++)
 		hash[a[i]]++;
-	for(i=0;i<max;i++)
+	for(i=0;i<=max;i++)
 	{
 			if(hash[i]>1)
-				printf("%d",i+1);
+				printf("%d",i);
 	}
 	return 0;
 }
