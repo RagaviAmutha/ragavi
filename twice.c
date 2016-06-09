@@ -17,7 +17,7 @@ int main(void) {
 	{
 			if(hash[i]!=2)
 			{
-				printf("%d",i);
+				printf("%d",i+1);
 			break;
 			}
 	}
