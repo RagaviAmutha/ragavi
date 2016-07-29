@@ -1,5 +1,7 @@
 /* package whatever; // don't place package name! */
 
+/* package whatever; // don't place package name! */
+
 import java.util.*;
 import java.lang.*;
 import java.io.*;
@@ -17,13 +19,18 @@ class Ideone
 		n=str.length();
 		//m=str1.length();
 		t=t-1;
-		
-		for(i=1;i<n;i++)
+		if(t<0)
 		{
-			System.out.print(str.charAt(0));
-			String chk=str.substring(i,i+t);
-			System.out.println(chk);
- 
+			for(i=1;i<n;i++)
+			{
+				System.out.print(str.charAt(0));
+				String chk=str.substring(i,i+t);
+				System.out.println(chk);
+			}
+		}
+		else
+		{
+			System.out.println("-1");
 		}
 	}
 }
