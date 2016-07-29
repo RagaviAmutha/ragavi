@@ -11,11 +11,11 @@ int main(void) {
 	for(i=0;i<t;i++)
 	{
 		int count=0;
-		if(a[i]==d)
+		if(a[i]==d||a[i]==d1)
 		{
 			for(j=i;j<t;j++)
 			{
-				if(a[j]==d1)
+				if(a[j]==d1||a[j]==d)
 					break;
 				count++;
 			}
