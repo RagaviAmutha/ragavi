@@ -3,7 +3,7 @@
 int main(void) {
 	// your code goes here
 	int t,i,j,n,max;
-	char a[100][100];
+	char a[100][100],chk[100];
 	scanf("%d",&t);
 	for(i=0;i<t;i++)
 		scanf("%s",a[i]);
@@ -12,8 +12,12 @@ int main(void) {
 	{
 		n=strlen(a[i]);
 		if(n<max)
+		{
 			max=n;
+			strcpy(chk,a[i]);
+		}
 	}
-	printf("%d",max);
+	printf("%s",chk);
 	return 0;
 }
+
