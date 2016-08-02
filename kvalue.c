@@ -12,6 +12,6 @@ int main(void) {
 		if(a[i]>n)
 			count++;
 	}
-	printf("%d",(t-count)-1);
+	printf("%d",(t-count));
 	return 0;
 }
