@@ -24,7 +24,7 @@ class Ideone
 			sum=a[i];
 			for(j=0;j<t;j++)
 			{
-				if(sum==a[j])
+				if(sum==b[j])
 				{
 					if(a[i]==b[j])
 					{
