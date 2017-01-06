@@ -10,8 +10,7 @@ int main(void) {
 		scanf("%d",&curr);	
 	for(i=0;i<t;i++)
 	{
-	if(curr!=a[i])
-		printf("%d ",a[i]);
+	;
 	}
 	
 	return 0;
