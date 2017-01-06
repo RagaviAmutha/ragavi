@@ -8,13 +8,13 @@ int main(void) {
 	for(i=0;i<t;i++)
 		scanf("%d",&a[i]);
 		scanf("%d",&curr);	
+
 	for(i=0;i<t;i++)
 	{
 	
-	}
-	for(i=0;i<t;i++)
-	{
-	
+
+	;
+
 	}
 	
 	return 0;
